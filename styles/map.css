@@ -1,0 +1,7 @@
+body {
+    background-image: url(../assets/tokyo-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
