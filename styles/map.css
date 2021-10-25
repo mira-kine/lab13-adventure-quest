@@ -5,3 +5,8 @@ body {
     overflow: hidden;
     background-position: center;
 }
+
+#map-links {
+    display: flex;
+    flex-direction: column;
+}

@@ -12,9 +12,9 @@
 
 ## Map Page
 *   HTML Elements
-    - [ ] List of links for each quest (from quest-data)
+    - [x] List of links for each quest (from quest-data) -> use a loop to generate hrefs for each quest using URL parameter
     - [ ] disable link if user has not completed the quest yet
-    - [ ] link should contain URL search parameter containing quest ID
+    - [x] link should contain URL search parameter containing quest ID
 *   Events
     - [ ] Game logic (TBD)
 
