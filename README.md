@@ -7,8 +7,8 @@
 *   Events
     *   Form: 
         - [x] Generate a user object using form data (generateUser)
-        - [ ] Store user data in localStorage (setUser)
-        - [ ] Redirect to map page
+        - [x] Store user data in localStorage (setUser)
+        - [x] Redirect to map page
 
 ## Map Page
 *   HTML Elements
