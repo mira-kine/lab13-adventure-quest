@@ -2,8 +2,8 @@
 
 ## User Page (Home)
 *   HTML Elements
-    - [ ] user name input area
-    - [ ] radio buttons for user avatar
+    - [x] user name input area
+    - [x] radio buttons for user avatar
 *   Events
     *   Form: 
         - [ ] Generate a user object using form data (generateUser)

@@ -1,6 +1,5 @@
 // consts Shibuya, Asakusa, Tokyo Fish Market, Kichijoji, Ueno
-// id, title, map location, image, description, choices, happy meter: , tired meter: , 
-
+// id, title, map location, image, description, choices, happy meter: , budget left:
 const shibuya = {
     id: 'shibuya',
     title: 'Welcome to Shibuya',
@@ -11,8 +10,8 @@ const shibuya = {
         //id
         //description
         //result
-        //happy meter
-        //tired meter
+        // money spent
+        // happy meter
     //}]
 };
 
@@ -26,8 +25,8 @@ const asakusa = {
         //id
         //description
         //result
-        //happy meter
-        //tired meter
+        //money spent
+        // happy meter
     //}]
 };
 
@@ -41,8 +40,8 @@ const tsukiji = {
         //id
         //description
         //result
-        //happy meter
-        //tired meter
+        // money spent
+        // happy meter
     //}]
 };
 
@@ -56,8 +55,8 @@ const kichijoji = {
         //id
         //description
         //result
-        //happy meter
-        //tired meter
+        // money spent
+        // happy meter
     //}]
 };
 
@@ -72,7 +71,7 @@ const ueno = {
         //description
         //result
         //happy meter
-        //tired meter
+        // money spent
     //}]
 };
 
@@ -87,7 +86,7 @@ const harajuku = {
         //description
         //result
         //happy meter
-        //tired meter
+        //money spent
     //}]
 };
 
