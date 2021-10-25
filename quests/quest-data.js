@@ -114,48 +114,56 @@ const tsukiji = {
     }]
 };
 
-const kichijoji = {
-    id: 'kichijoji',
-    title: 'Welcome to Kichijoji',
-    // map: {},
-    image: 'kichijoji.jpg',
-    // description: ,
-    // choices: [{
-        //id
-        //description
-        //result
-        // money spent
-        // happy meter
-    //}]
-};
+const quests = [
+    shibuya,
+    asakusa,
+    tsukiji,
+];
 
-const ueno = {
-    id: 'ueno',
-    title: 'Welcome to Ueno',
-    // map: {},
-    image: 'ueno.jpg'
-    // description: ,
-    // choices: [{
-        //id
-        //description
-        //result
-        //happy meter
-        // money spent
-    //}]
-};
+export default quests;
 
-const harajuku = {
-    id: 'harajuku',
-    title: 'Welcome to Harajuku',
-    // map: {},
-    image: 'harajuku.jpg',
-    // description: ,
-    // choices: [{
-        //id
-        //description
-        //result
-        //happy meter
-        //money spent
-    //}]
-};
+// const kichijoji = {
+//     id: 'kichijoji',
+//     title: 'Welcome to Kichijoji',
+//     // map: {},
+//     image: 'kichijoji.jpg',
+//     // description: ,
+//     // choices: [{
+//         //id
+//         //description
+//         //result
+//         // money spent
+//         // happy meter
+//     //}]
+// };
+
+// const ueno = {
+//     id: 'ueno',
+//     title: 'Welcome to Ueno',
+//     // map: {},
+//     image: 'ueno.jpg'
+//     // description: ,
+//     // choices: [{
+//         //id
+//         //description
+//         //result
+//         //happy meter
+//         // money spent
+//     //}]
+// };
+
+// const harajuku = {
+//     id: 'harajuku',
+//     title: 'Welcome to Harajuku',
+//     // map: {},
+//     image: 'harajuku.jpg',
+//     // description: ,
+//     // choices: [{
+//         //id
+//         //description
+//         //result
+//         //happy meter
+//         //money spent
+//     //}]
+// };
 
