@@ -1,6 +1,35 @@
-# Alchemy Bootstrap Template
+# Choose your Adventure in Tokyo: Make a Plan
 
-## Making a plan
+## User Page (Home)
+*   HTML Elements
+    - [ ] user name input area
+    - [ ] radio buttons for user avatar
+*   Events
+    *   Form: 
+        - [ ] Generate a user object using form data (generateUser)
+        - [ ] Store user data in localStorage (setUser)
+        - [ ] Redirect to map page
+
+## Map Page
+*   HTML Elements
+    - [ ] List of links for each quest (from quest-data)
+    - [ ] disable link if user has not completed the quest yet
+    - [ ] link should contain URL search parameter containing quest ID
+*   Events
+    - [ ] Game logic (TBD)
+
+## Quest Page
+*   HTML Elements
+    - [ ] Title
+    - [ ] Image
+    - [ ] Description
+    - [ ] Quest Choices (radio buttons)
+*   Events
+    - [ ] On page load, get the quest ID from param, load quest data onto page
+    *   After submitting form
+        - [ ] update user data (local storage)
+        - [ ] redirect back to map page
+    
 
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
