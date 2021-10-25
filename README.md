@@ -6,7 +6,7 @@
     - [x] radio buttons for user avatar
 *   Events
     *   Form: 
-        - [ ] Generate a user object using form data (generateUser)
+        - [x] Generate a user object using form data (generateUser)
         - [ ] Store user data in localStorage (setUser)
         - [ ] Redirect to map page
 

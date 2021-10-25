@@ -10,8 +10,8 @@ const shibuya = {
         //id
         //description
         //result
-        // money spent
-        // happy meter
+        // money spent (yen)
+        // happymeter
     //}]
 };
 
