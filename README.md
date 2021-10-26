@@ -33,10 +33,14 @@
 *   Events
     - [ ] On page load, get the quest ID from param, load quest data onto page
     *   After submitting form
-        - [ ] get userData 
+        - [ ] prevent default
+        - [ ] get selected choice from choices array using findById
+        - [ ] use querySelector on the checked radio button, pass that into findById 
         - [ ] update user data (local storage)
             - [ ] update completed, yen, happymeter
-            - [ ] get data from quest.data 
+            - [ ] get data from quest.data choices 
+        - [ ] get userData
+        - [ ] questScore 
         - [ ] set it back to local storage (setUser)
         - [ ] display link to get back to map
 
@@ -45,7 +49,8 @@
 - [x] setUser (set into localstorage)
 - [ ] getUser (return userobject from ls, using JSON.parse)
 - [ ] questScore (updates yen and happy meter)
-    *   takes userObject 
+    *   takes userObject and compares it to userChoice (choiceObject)
+    *   takes in parameters userChoice, questId, userObject. Calls .yen and .happymeter to update userObject with userChoice. Find it by Id. update completed{}.
  
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
