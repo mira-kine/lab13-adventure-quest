@@ -1,1 +1,4 @@
-// import { shibuya, asakusa, tsukiji, kichijoji, ueno, harajuku } from './quest-data.js';
+// import quests from './quest-data.js';
+
+
+// const searchParams = new URLSearchParams(window.location.search);
