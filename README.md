@@ -2,19 +2,19 @@
 
 ## User Page (Home)
 *   HTML Elements
-    - [ ] user name input area
-    - [ ] radio buttons for user avatar
+    - [x] user name input area
+    - [x] radio buttons for user avatar
 *   Events
     *   Form: 
-        - [ ] Generate a user object using form data (generateUser)
-        - [ ] Store user data in localStorage (setUser)
-        - [ ] Redirect to map page
+        - [x] Generate a user object using form data (generateUser)
+        - [x] Store user data in localStorage (setUser)
+        - [x] Redirect to map page
 
 ## Map Page
 *   HTML Elements
-    - [ ] List of links for each quest (from quest-data)
+    - [x] List of links for each quest (from quest-data) -> use a loop to generate hrefs for each quest using URL parameter
     - [ ] disable link if user has not completed the quest yet
-    - [ ] link should contain URL search parameter containing quest ID
+    - [x] link should contain URL search parameter containing quest ID
 *   Events
     - [ ] Game logic (TBD)
 
