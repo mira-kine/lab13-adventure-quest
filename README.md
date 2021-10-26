@@ -23,14 +23,30 @@
     - [ ] Title
     - [ ] Image
     - [ ] Description
-    - [ ] Quest Choices (radio buttons)
+    - [ ] Quest Choices (radio buttons) form
+    - [ ] avatar
+    - [ ] yen span
+    - [ ] happymeter span
+    - [ ] audio
+    - [ ] href back to map
+    - [ ] result section (hidden until choice is made)
 *   Events
     - [ ] On page load, get the quest ID from param, load quest data onto page
     *   After submitting form
+        - [ ] get userData 
         - [ ] update user data (local storage)
-        - [ ] redirect back to map page
-    
+            - [ ] update completed, yen, happymeter
+            - [ ] get data from quest.data 
+        - [ ] set it back to local storage (setUser)
+        - [ ] display link to get back to map
 
+## Utils
+- [x] generateUser (user form)
+- [x] setUser (set into localstorage)
+- [ ] getUser (return userobject from ls, using JSON.parse)
+- [ ] questScore (updates yen and happy meter)
+    *   takes userObject 
+ 
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
 1) **Make a drawing of your app. Simple "wireframes"**
