@@ -37,24 +37,25 @@
     - [x] href back to map
     - [x] result section (hidden until choice is made)
 *   Events (quest.js)
-    - [ ] On page load, get the quest ID from param, load quest data onto page
+    - [x] On page load, get the quest ID from param, load quest data onto page (render Item)
     *   After submitting form (userChoices)
-        - [ ] prevent default
-        - [ ] get selected choice from choices array using findById
-        - [ ] use querySelector on the checked radio button, pass that into findById 
-        - [ ] update user data (local storage)
+        - [x] prevent default
+        - [x] use querySelector on the checked radio button, pass that into findById 
+        - [x] get selected choice from choices array using findById
+        - [x] update user data (local storage)
             - [ ] update completed, yen, happymeter
             - [ ] get data from quest.data choices 
-        - [ ] get userData
-        - [ ] questScore 
-        - [ ] set it back to local storage (setUser)
-        - [ ] display link to get back to map that replaces the whole page with the results page (gets rid of the choices page so you cannot go back to choices page)
+        - [x] get userData
+        - [x] questScore 
+        - [x] set it back to local storage (setUser)
+        - [x] display link to get back to map that replaces the whole page with the results page (gets rid of the choices page so you cannot go back to choices page)
 
 ## Utils
 - [x] generateUser (user form)
 - [x] setUser (set into localstorage)
-- [ ] getUser (return userobject from ls, using JSON.parse)
-- [ ] questScore (updates yen and happy meter)
+- [x] findById
+- [x] getUser (return userobject from ls, using JSON.parse)
+- [x] questScore (updates yen and happy meter)
     *   takes userObject and compares it to userChoice (choiceObject)
     *   takes in parameters userChoice, questId, userObject. Calls .yen and .happymeter to update userObject with userChoice. Find it by Id. update completed{}.
 - [ ] function for completed all quests, takes userObject, checks if all completed are true then go to "you had a wonderful journey!" else, continue on to map page.

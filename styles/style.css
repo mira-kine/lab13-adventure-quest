@@ -20,12 +20,12 @@ img {
     height: 100px;
 }
 
-input[type=radio]{
-    display: none;
-}
 
 input[type=radio]:checked + img {
     border: 4px solid lightblue;
-    padding: 50px;
 }
 
+
+input[type=radio]{
+    display: none;
+}

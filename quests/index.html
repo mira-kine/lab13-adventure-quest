@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/quest.css">
     <title>Quest Page</title>
 </head>
@@ -21,19 +20,16 @@
     </header>
 
     <main>
-        <h2 id="title"></h2>
+        <h2 id="quest-title">Quest Title</h2>
         <p>
             <img id="quest-image">
             <audio id="quest-audio" autoplay></audio>
         </p>
-        <p id="description"></p>
-        <form id="choices-form">
-            <p id="choices"></p>
-            <button>Let's go</button>
-        </form>
+        <div id="quest-content" class="quest-content">
+            <p id="quest-description"></p>
+            <form id="choices-form"></form>
+        </div>
         <section id="result" class="hidden">
-            <p id="result-description"></p>
-            <a href="../map">Go back to map</a>
         </section>
     </main>
 
