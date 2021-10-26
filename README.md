@@ -26,16 +26,16 @@
 
 ## Quest Page
 *   HTML Elements
-    - [ ] Title
-    - [ ] Image
-    - [ ] Description
-    - [ ] Quest Choices (radio buttons) form
-    - [ ] avatar
-    - [ ] yen span
-    - [ ] happymeter span
-    - [ ] audio
-    - [ ] href back to map
-    - [ ] result section (hidden until choice is made)
+    - [x] Title
+    - [x] Image
+    - [x] Description
+    - [x] Quest Choices (radio buttons) form
+    - [x] avatar
+    - [x] yen span
+    - [x] happymeter span
+    - [x] audio
+    - [x] href back to map
+    - [x] result section (hidden until choice is made)
 *   Events (quest.js)
     - [ ] On page load, get the quest ID from param, load quest data onto page
     *   After submitting form (userChoices)
