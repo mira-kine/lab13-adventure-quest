@@ -117,7 +117,7 @@ const tsukiji = {
 const quests = [
     shibuya,
     asakusa,
-    tsukiji,
+    tsukiji
 ];
 
 export default quests;
@@ -125,16 +125,23 @@ export default quests;
 // const kichijoji = {
 //     id: 'kichijoji',
 //     title: 'Welcome to Kichijoji',
-//     // map: {},
+//     map: { 
+//         top: '75%',
+//         left: '60%'
+//     },
 //     image: 'kichijoji.jpg',
-//     // description: ,
-//     // choices: [{
-//         //id
-//         //description
-//         //result
-//         // money spent
-//         // happy meter
-//     //}]
+//     description: `
+//         It's a busy road, but it's quiet at the same time. There's barely enough space for one car to push through, but it does. It's a suburban-city feel, one that not many people know about, but its the hometown of the creator of this quest game. 
+//     `,
+//     choices: [{
+//     id: 'park',
+//     description: 'go to the park',
+//     result: `
+//         You go to Inokashira park. The first thing you see is the tall trees, towering over everyone, and the man-powered swan boats in the lake. People are feeding koi fish with dry bread they bought from a small newspaper stand, and couples are 
+//     `
+//     yen: 
+//     happymeter:
+//     }]
 // };
 
 // const ueno = {
