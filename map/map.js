@@ -1,5 +1,5 @@
 import quests from '../data/quest-data.js';
-import { getUser, questsCompleted } from '../utils.js';
+import { getUser, questsCompleted, userStatus } from '../utils.js';
 
 const mapLinks = document.getElementById('map-links');
 const user = getUser();
@@ -19,13 +19,18 @@ function displayLink(quest){
     const a = document.createElement('a');
     a.href = `../quests/?id=${quest.id}`;
     a.textContent = quest.title;
-
+    a.classList.add('link');
+    a.style.top = quest.map.top;
+    a.style.left = quest.map.left;
     mapLinks.appendChild(a);
 }
 
 function displaySpan(quest){
     const span = document.createElement('span');
     span.textContent = quest.title;
+    span.classList.add('link');
+    span.style.top = quest.map.top;
+    span.style.left = quest.map.left;
     mapLinks.appendChild(span);
 }
 
@@ -36,3 +41,5 @@ if (user.yen <= 0){
 if (questsCompleted(user)){
     window.location.replace('../win');
 }
+
+userStatus();

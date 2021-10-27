@@ -17,7 +17,7 @@
 *   Events (map.js)
     *  On Page Load
     - [x] loop through each quest
-        - [ ] if user has completed quest (found in completed[quest.id]), display Span. else displayLink. This way, the link is disabled once it has already been completed.
+        - [x] if user has completed quest (found in completed[quest.id]), display Span. else displayLink. This way, the link is disabled once it has already been completed.
     - [x] generate a link <a> for each quest with href (put in quest id template literal in the URL param)
     - [x] create function for displayLink and displaySpan so you can add into the quest loop
     - [x] if user has completed all quests -- end game page
@@ -58,7 +58,7 @@
 - [x] questScore (updates yen and happy meter)
     *   takes userObject and compares it to userChoice (choiceObject)
     *   takes in parameters userChoice, questId, userObject. Calls .yen and .happymeter to update userObject with userChoice. Find it by Id. update completed{}.
-- [ ] function for completed all quests, takes userObject, checks if all completed are true then go to "you had a wonderful journey!" else, continue on to map page.
+- [x] function for completed all quests, takes userObject, checks if all completed are true then go to "you had a wonderful journey!" else, continue on to map page.
     *   do this by looping through quest (of quests). if (!userObject.completed[quest.id]){
         return false;
     }
@@ -73,7 +73,10 @@ height: calc(90vw * dimension of image), make position relative for the links
 *   create class for the links, add it into css
 *   set the link styles to what styles it says in your quest data
     *    for ex. a.style.top = quest.map.top (and so on)
-- [ ] add it for both your links and span
+- [x] add it for both your links and span
+
+## User Info
+- [ ] header function 
 
 1) **Make a drawing of your app. Simple "wireframes"**
 2) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
