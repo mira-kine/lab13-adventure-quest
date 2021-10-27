@@ -43,8 +43,8 @@
         - [x] use querySelector on the checked radio button, pass that into findById 
         - [x] get selected choice from choices array using findById
         - [x] update user data (local storage)
-            - [ ] update completed, yen, happymeter
-            - [ ] get data from quest.data choices 
+            - [x] update completed, yen, happymeter
+            - [x] get data from quest.data choices 
         - [x] get userData
         - [x] questScore 
         - [x] set it back to local storage (setUser)

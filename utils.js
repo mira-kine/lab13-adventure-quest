@@ -1,4 +1,4 @@
-// import quests from './data/quest-data.js';
+import quests from './data/quest-data.js';
 
 export function generateUser(formData){
     return {
@@ -32,4 +32,13 @@ export function questScore(userChoice, questId, userObject) {
     userObject.yen += userChoice.yen;
     userObject.happymeter += userObject.happymeter;
     userObject.completed[questId] = true;
+}
+
+export function questsCompleted(userObject){
+    for (let quest of quests){
+        if (!userObject.completed(quest.id)){
+            return false;
+        }
+    }
+    return true;
 }

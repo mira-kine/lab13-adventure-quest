@@ -28,3 +28,7 @@ function displaySpan(quest){
     span.textContent = quest.title;
     mapLinks.appendChild(span);
 }
+
+if (user.yen <= 0){
+    window.location.replace('../gameover');
+}
