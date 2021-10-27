@@ -1,5 +1,5 @@
 import quests from '../data/quest-data.js';
-import { getUser } from '../utils.js';
+import { getUser, questsCompleted } from '../utils.js';
 
 const mapLinks = document.getElementById('map-links');
 const user = getUser();
@@ -30,5 +30,9 @@ function displaySpan(quest){
 }
 
 if (user.yen <= 0){
-    window.location.replace('../gameover');
+    window.location.replace('../lose');
+}
+
+if (questsCompleted(user)){
+    window.location.replace('../win');
 }
