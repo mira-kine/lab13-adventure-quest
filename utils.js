@@ -30,7 +30,7 @@ export function getUser(){
 
 export function questScore(userChoice, questId, userObject) {
     userObject.yen += userChoice.yen;
-    userObject.happymeter = userChoice.happymeter;
+    userObject.happymeter += userChoice.happymeter;
     userObject.completed[questId] = true;
 }
 

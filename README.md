@@ -76,7 +76,7 @@ height: calc(90vw * dimension of image), make position relative for the links
 - [x] add it for both your links and span
 
 ## User Info
-- [ ] header function 
+- [x] header function 
 
 1) **Make a drawing of your app. Simple "wireframes"**
 2) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
