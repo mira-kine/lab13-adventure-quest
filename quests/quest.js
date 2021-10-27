@@ -1,5 +1,5 @@
 import quests from '../data/quest-data.js';
-import { findById, getUser, setUser, questScore } from '../utils.js';
+import { findById, getUser, setUser, questScore, userStatus } from '../utils.js';
 
 // grab query parameter from URL
 const searchParams = new URLSearchParams(window.location.search);
@@ -62,4 +62,6 @@ userChoice.addEventListener('submit', (e)=>{
     questResults.append(resultP, mapLink);
 
     questResults.classList.remove('hidden');
+    userStatus();
 });
+userStatus();

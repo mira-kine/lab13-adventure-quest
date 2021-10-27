@@ -1,5 +1,5 @@
 import quests from '../data/quest-data.js';
-import { getUser, questsCompleted } from '../utils.js';
+import { getUser, questsCompleted, userStatus } from '../utils.js';
 
 const mapLinks = document.getElementById('map-links');
 const user = getUser();
@@ -42,3 +42,4 @@ if (questsCompleted(user)){
     window.location.replace('../win');
 }
 
+userStatus();

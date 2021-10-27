@@ -29,14 +29,14 @@ export function getUser(){
 }
 
 export function questScore(userChoice, questId, userObject) {
-    userObject.yen = userChoice.yen;
+    userObject.yen += userChoice.yen;
     userObject.happymeter = userChoice.happymeter;
     userObject.completed[questId] = true;
 }
 
 export function questsCompleted(userObject){
     for (let quest of quests){
-        if (!userObject.completed(quest.id)){
+        if (!userObject.completed[quest.id]){
             return false;
         }
     }
@@ -44,5 +44,16 @@ export function questsCompleted(userObject){
 }
 
 export function userStatus(){
-    
+    const user = getUser();
+    const img = document.getElementById('user-img');
+    img.src = `../assets/${user.avatar}.jpg`;
+        
+    const name = document.getElementById('user-name-span');
+    name.textContent = user.name;
+
+    const happymeter = document.getElementById('happy-meter-span');
+    happymeter.textContent = user.happymeter;
+
+    const yen = document.getElementById('user-yen');
+    yen.textContent = user.yen;
 }
