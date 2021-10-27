@@ -42,3 +42,7 @@ export function questsCompleted(userObject){
     }
     return true;
 }
+
+export function userStatus(){
+    
+}

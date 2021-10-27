@@ -4,8 +4,8 @@ const shibuya = {
     id: 'shibuya',
     title: 'Welcome to Shibuya',
     map: {
-        top: '90%',
-        left: '45%'
+        top: '50%',
+        left: '40%'
     },
     image: 'shibuya.jpg',
     description: `
@@ -78,8 +78,8 @@ const tsukiji = {
     id: 'tsukiji',
     title: 'Welcome to Tsukiji',
     map: {
-        top: '85%',
-        left: '85%'
+        top: '53%',
+        left: '62%'
     },
     image: 'tsukiji.jpg',
     description: `

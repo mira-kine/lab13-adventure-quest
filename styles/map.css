@@ -1,12 +1,16 @@
-body {
-    background-image: url(../assets/tokyo-map.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-position: center;
-}
-
 #map-links {
     display: flex;
     flex-direction: column;
+    background-image: url(../assets/tokyo-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 90vw;
+    height: calc(90vw * 626 / 414);
+    position: relative;
+}
+
+.link {
+    position: absolute;
+    color: blue;
 }
