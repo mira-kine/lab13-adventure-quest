@@ -66,6 +66,15 @@
 } 
 (bolded steps are mandatory, unbolded are for more advanced projects)
 
+## Map positioning
+*   absolute position the map on the website, and relatively position the links to follow the map
+*    make width: 90vw;
+height: calc(90vw * dimension of image), make position relative for the links
+*   create class for the links, add it into css
+*   set the link styles to what styles it says in your quest data
+    *    for ex. a.style.top = quest.map.top (and so on)
+- [ ] add it for both your links and span
+
 1) **Make a drawing of your app. Simple "wireframes"**
 2) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
 3) **For each HTML element ask: Why do I need this?**
