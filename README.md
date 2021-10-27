@@ -20,8 +20,8 @@
         - [ ] if user has completed quest (found in completed[quest.id]), display Span. else displayLink. This way, the link is disabled once it has already been completed.
     - [x] generate a link <a> for each quest with href (put in quest id template literal in the URL param)
     - [x] create function for displayLink and displaySpan so you can add into the quest loop
-    - [ ] if user has completed all quests -- end game page
-    - [ ] if user has lost all yen -- game over
+    - [x] if user has completed all quests -- end game page
+    - [x] if user has lost all yen -- game over
 
 
 ## Quest Page
