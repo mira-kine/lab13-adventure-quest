@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { generateUser, setUser, findById } from '../utils.js';
+import { generateUser, setUser } from '../utils.js';
 // import { example } from '../example.js';
 
 const test = QUnit.test;
