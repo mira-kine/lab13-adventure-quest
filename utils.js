@@ -57,3 +57,8 @@ export function userStatus(){
     const yen = document.getElementById('user-yen');
     yen.textContent = user.yen;
 }
+
+export function playAgain(){
+    localStorage.removeItem('USER');
+    window.location.replace('..');
+}
