@@ -30,7 +30,7 @@ export function getUser(){
 
 export function questScore(userChoice, questId, userObject) {
     userObject.yen += userChoice.yen;
-    userObject.happymeter = userChoice.happymeter;
+    userObject.happymeter += userChoice.happymeter;
     userObject.completed[questId] = true;
 }
 
@@ -56,4 +56,9 @@ export function userStatus(){
 
     const yen = document.getElementById('user-yen');
     yen.textContent = user.yen;
+}
+
+export function playAgain(){
+    localStorage.removeItem('USER');
+    window.location.replace('..');
 }

@@ -3,6 +3,8 @@ import { getUser, questsCompleted, userStatus } from '../utils.js';
 
 const mapLinks = document.getElementById('map-links');
 const user = getUser();
+// run userStatus on the page
+userStatus();
 
 for (let quest of quests){
     // "/quest?id=<questId>"
@@ -34,12 +36,6 @@ function displaySpan(quest){
     mapLinks.appendChild(span);
 }
 
-if (user.yen <= 0){
-    window.location.replace('../lose');
+if (user.yen <= 0 || questsCompleted(user)){
+    window.location.replace('../end-page');
 }
-
-if (questsCompleted(user)){
-    window.location.replace('../win');
-}
-
-userStatus();

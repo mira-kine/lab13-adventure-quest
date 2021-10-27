@@ -15,37 +15,38 @@
 </head>
 
 <body>
-    <h3>A Day Adventure in Tokyo!</h3>
-    <form id="user-form">
-        <label for="name">
-            Your Name:
-            <input name="name" type="text">
-        </label>
-        <legend>Pick your avatar:</legend>
-        <p id="avatars">
-            <label>
-                <input type="radio" name="avatar" required value="noface">
-                <img src ="assets/noface.jpg" alt="noface avatar">
-                <span>No-face</span>
+    <main id="main-container">
+        <h3>A Day Adventure in Tokyo!</h3>
+        <form id="user-form">
+            <label for="name">
+                <input name="name" type="text" placeholder="Your Name">
             </label>
-            <label>
-                <input type="radio" name="avatar" required value="ponyo">
-                <img src ="assets/ponyo.jpg" alt="ponyo-avatar">
-                <span>Ponyo</span>
-            </label>
-            <label>
-                <input type="radio" name="avatar" required value="calcifer">
-                <img src="assets/calcifer.jpg" alt="calcifer-avatar">
-                <span>Calcifer</span>
-            </label>
-            <label>
-                <input type="radio" name="avatar" required value="kodama">
-                <img src="assets/kodama.jpg" alt="kodama-avatar">
-                <span>Kodama</span>
-            </label>
-            <button id="go-button">Let's Go!</button>
-        </p>
-    </form>
+            <legend>Pick your avatar:</legend>
+            <p id="avatars">
+                <label>
+                    <input type="radio" name="avatar" required value="noface">
+                    <img src ="assets/noface.jpg" alt="noface avatar">
+                    <span>No-face</span>
+                </label>
+                <label>
+                    <input type="radio" name="avatar" required value="ponyo">
+                    <img src ="assets/ponyo.jpg" alt="ponyo-avatar">
+                    <span>Ponyo</span>
+                </label>
+                <label>
+                    <input type="radio" name="avatar" required value="calcifer">
+                    <img src="assets/calcifer.jpg" alt="calcifer-avatar">
+                    <span>Calcifer</span>
+                </label>
+                <label>
+                    <input type="radio" name="avatar" required value="kodama">
+                    <img src="assets/kodama.jpg" alt="kodama-avatar">
+                    <span>Kodama</span>
+                </label>
+            </p>
+        </form>
+        <button id="go-button">Let's Go!</button>
+    </main>
 
     <script type="module" src="./app.js"></script>
 </body>

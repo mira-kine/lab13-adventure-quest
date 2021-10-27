@@ -25,15 +25,15 @@ const shibuya = {
         result: `
             You are inspired by Japanese fashion around you. You pop into random shops and eventually find one named Muji. It has everything and nothing, unnecessary yet necessary, minimalistic and clean. You buy a lot of things, you can't help yourself. It costs 2000 yen, and you gained 15 happy points.
         `,
-        yen: -2000,
+        yen: -4000,
         happymeter: 15,
     }, {
         id: 'nature',
         description: 'look for nature',
         result: `
-            You want some trees, some air if you will. You look around you, walking for miles, but all you see is a concrete jungle ahead of you. You make some right turns, some left turns, and you end up in a few alleys. That's not right. You try to find the train station again, but you realize that you are lost. There is no nature here. You have to ask a stranger for directions using as much Japanese as you can. This cost you no yen. But it cost you some happy points (-15).
+            You want some trees, some air if you will. You look around you, walking for miles, but all you see is a concrete jungle ahead of you. You make some right turns, some left turns, and you end up in a few alleys. That's not right. You try to find the train station again, but you realize that you are lost. There is no nature here. You have to ask a stranger for directions using as much Japanese as you can. This cost you 10,000 yen. And it cost you some happy points (-15).
         `,
-        yen: 0,
+        yen: -10000,
         happymeter: -15,
     }]
 };
@@ -69,8 +69,10 @@ const asakusa = {
         id: 'leave',
         description: 'leave immediately',
         result: `
-            You look around. It's not your vibe. You decide to leave. You save yen (I guess), but you miss out on a great experience. Costs you 0 yen, and you lose 10 happy points.
-        `
+            You look around. It's not your vibe. You decide to leave. You save yen (I guess), but you miss out on a great experience. You accidentally slip on a banana peel on the ground, dropping 8000 yen, and you lose 10 happy points.
+        `,
+        yen: -8000,
+        happymeter: -50
     }]
 };
 
@@ -78,7 +80,7 @@ const tsukiji = {
     id: 'tsukiji',
     title: 'Welcome to Tsukiji',
     map: {
-        top: '53%',
+        top: '52%',
         left: '62%'
     },
     image: 'tsukiji.jpg',
@@ -92,7 +94,7 @@ const tsukiji = {
             You enter a random alley way. It takes you into yet another section of fish sellers and food stands. A nice old lady smiles and offers you samples. As you try the sample, she comes to you with yet another sample. Before you know it, you are filled up with different samples, all for free: types of buns, sushi, traditional desserts and rice crackers. This costs you 0yen, and 20 happy points.
         `,
         yen: 0,
-        happymeter: 20
+        happymeter: 30
     }, {
         id: 'yakuza',
         description: 'run into yakuza',
@@ -102,14 +104,14 @@ const tsukiji = {
             You smell something good. You open your eyes. Is this heaven? You look down and realize that he is offering you a grilled scallop. It costs you 500yen and gains you 30 happy points. "Until next time..."
         `,
         yen: 500,
-        happymeter: 30
+        happymeter: 35
     }, {
         id: 'leave fish',
         description: 'leave tsukiji immediately, no fish for me',
         result: `
-            You don't like fish, so you leave immediately. You miss out on trying out traditional desserts, ramen, udon, and meeting kind Japanese elders and supporting their small businesses. As you are leaving, you trip and drop 1000 yen. You also lose 10 happy points. Try new things next time!
+            You don't like fish, so you leave immediately. You miss out on trying out traditional desserts, ramen, udon, and meeting kind Japanese elders and supporting their small businesses. As you are leaving, you trip and drop 9000 yen. You also lose 10 happy points. Try new things next time!
         `,
-        yen: 1000,
+        yen: -9000,
         happymeter: -10
     }]
 };

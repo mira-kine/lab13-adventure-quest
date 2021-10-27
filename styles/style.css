@@ -1,12 +1,20 @@
 body {
+    background-color: #EEE2DF;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
     background-image: url('/assets/train-station.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    width: 90vw;
+    height: calc(90vw * 1000 / 563);
+    align-items: center;
 }
 
 #avatars{
     display: flex;
-    flex-direction: column;
 }
 form {
     display: flex;
@@ -28,4 +36,8 @@ input[type=radio]:checked + img {
 
 input[type=radio]{
     display: none;
+}
+
+h3 {
+    font-size: 2rem;
 }

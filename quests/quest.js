@@ -14,7 +14,8 @@ img.src = `../assets/${questData.image}`;
 const description = document.getElementById('quest-description');
 description.textContent = questData.description;
 
-
+// header running
+userStatus();
 
 // loop through choices, render HTML elements with quest data
 const userChoice = document.getElementById('choices-form');
@@ -64,4 +65,3 @@ userChoice.addEventListener('submit', (e)=>{
     questResults.classList.remove('hidden');
     userStatus();
 });
-userStatus();
