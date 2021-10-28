@@ -80,7 +80,7 @@ const tsukiji = {
     id: 'tsukiji',
     title: 'Welcome to Tsukiji',
     map: {
-        top: '52%',
+        top: '45%',
         left: '62%'
     },
     image: 'tsukiji.jpg',
