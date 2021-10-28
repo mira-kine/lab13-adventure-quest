@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Tokyo-Outline';
+    src: url("/assets/Tokyo/Tokyo-Outline/Tokyo-Outline.ttf")
+}
+@font-face {
+    font-family: 'Tokyo-Regular';
+    src: url("/assets/Tokyo/Tokyo-Regular/Tokyo-Regular.ttf")
+}
+
+* {
+    --color-1: #EEE2DF;
+    --color-2: #F3EFE0;
+    --color-3: #F6F7EB;
+    --color-4: #393E41;
+    --color-5: #B0D0D3;
+    --color-6: #385F71;
+}
+
 #map-links {
     display: flex;
     flex-direction: column;
@@ -5,17 +23,47 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 90vw;
-    height: calc(90vw * 626 / 414);
+    width: 1000px;
+    height: 800px;
     position: relative;
+    margin: auto;
 }
 
 .link {
     position: absolute;
-    color: blue;
 }
 
 img {
     height: 100px;
     width: 100px;
+}
+
+body {
+    background-color: var(--color-1);
+    --header-height: 80px;
+    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 25px;
+
+    font-family: 'Tokyo-Regular', sans-serif;
+    color: var(--color-4);
+}
+
+#header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--color-6)
+}
+
+span {
+    font-size: 1.4rem;
+    color: var(--color-6);
+    font-family: 'Tokyo-Outline', sans-serif;
 }

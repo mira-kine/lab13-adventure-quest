@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Tokyo-Regular';
+  src: url('Tokyo-Regular.eot?#iefix') format('embedded-opentype'),  url('Tokyo-Regular.otf')  format('opentype'),
+	     url('Tokyo-Regular.woff') format('woff'), url('Tokyo-Regular.ttf')  format('truetype'), url('Tokyo-Regular.svg#Tokyo-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
