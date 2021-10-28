@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
-    font-family: 'Tokyo-Regular', sans-serif;
+    font-family: 'Tokyo-Regular', 'Permanent Marker', sans-serif;
     color: var(--color-2)
 }
 

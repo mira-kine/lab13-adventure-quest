@@ -45,7 +45,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
 
-    font-family: 'Tokyo-Regular', sans-serif;
+    font-family: 'Tokyo-Regular', 'Permanent Marker' sans-serif;
     color: var(--color-4);
 }
 
@@ -65,5 +65,5 @@ a {
 span {
     font-size: 1.4rem;
     color: var(--color-6);
-    font-family: 'Tokyo-Outline', sans-serif;
+    font-family: 'Tokyo-Outline', 'Monoton' sans-serif;
 }
