@@ -21,7 +21,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
 
-    font-family: 'Tokyo-Regular', sans-serif;
+    font-family: 'Tokyo-Regular', 'Permanent Marker', sans-serif;
     color: var(--color-5);
     background-image: url('/assets/train-station.jpg');
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ input[type=radio]{
 h3 {
     font-size: 5rem;
     color: var(--color-4);
-    font-family: 'Tokyo-Outline', cursive;
+    font-family: 'Tokyo-Outline', 'Monoton', cursive;
     text-align: center;
     position: relative;
     margin-bottom: 10px;
